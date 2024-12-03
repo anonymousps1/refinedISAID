@@ -1,0 +1,18 @@
+This repository contains the code used to take a backtracking or restarting strategy for searching a key monomial.
+
+
+1. run "make" to gennerate an executable program "main.run"
+2. run "./main.run -i 0 -j 0 -m 0" to search a key monomial. 
+	the argument "-i" determine which (n-1)-degree monomial of plaintext to choose. 
+	the argument "-o" determine which 1-degree monomial of ciphertext to choose. 
+	the argument "-m" determine which strategy to take between backtracking and restarting. "1" is for backtracking and others for restarting. 
+
+
+
+
+This implementation is the following environment:
+g++ version 9.3.0 (Arch Linux 9.3.0-1)
+SageMath version 9.0, Release Date: 2020-01-01
+Gurobi 10.0.1
+
+

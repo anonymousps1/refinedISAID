@@ -1,0 +1,17 @@
+This repository contains the code used to take a backtracking  strategy for twine to search a key monomial.
+
+1. run"mkdir 8result"
+2. run "make" to gennerate an executable program "twine.run"
+3. run "./twine.run" to search a key monomial. 
+4.modify "twine.cpp" to determine which (n-1)-degree monomial of plaintext to choose and which 1-degree monomial of ciphertext to choose. 
+	
+
+
+
+
+This implementation is the following environment:
+g++ version 9.3.0 (Arch Linux 9.3.0-1)
+SageMath version 9.0, Release Date: 2020-01-01
+Gurobi 10.0.1
+
+
